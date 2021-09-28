@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC4B94C2702AC3A0054AC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */; };
+		AFC4B94E2702AC3A0054AC3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */; };
+		AFC4B9502702AC3A0054AC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94F2702AC3A0054AC3C /* ViewController.swift */; };
+		AFC4B9532702AC3A0054AC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4B9512702AC3A0054AC3C /* Main.storyboard */; };
+		AFC4B9552702AC3C0054AC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC4B9542702AC3C0054AC3C /* Assets.xcassets */; };
+		AFC4B9582702AC3C0054AC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4B9562702AC3C0054AC3C /* LaunchScreen.storyboard */; };
+		AFC4B9632702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B9622702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift */; };
+		AFC4B96D2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B96C2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITests.swift */; };
+		AFC4B96F2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B96E2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC4B95F2702AC3D0054AC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC4B9402702AC3A0054AC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4B9472702AC3A0054AC3C;
+			remoteInfo = "Fetch Rewards Code Challenge Alex C";
+		};
+		AFC4B9692702AC3D0054AC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC4B9402702AC3A0054AC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4B9472702AC3A0054AC3C;
+			remoteInfo = "Fetch Rewards Code Challenge Alex C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC4B9482702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Rewards Code Challenge Alex C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFC4B94F2702AC3A0054AC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFC4B9522702AC3A0054AC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC4B9542702AC3C0054AC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC4B9572702AC3C0054AC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC4B9592702AC3C0054AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC4B95E2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards Code Challenge Alex CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC4B9622702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_Code_Challenge_Alex_CTests.swift; sourceTree = "<group>"; };
+		AFC4B9682702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards Code Challenge Alex CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC4B96C2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_Code_Challenge_Alex_CUITests.swift; sourceTree = "<group>"; };
+		AFC4B96E2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_Code_Challenge_Alex_CUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC4B9452702AC3A0054AC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4B95B2702AC3D0054AC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4B9652702AC3D0054AC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC4B93F2702AC3A0054AC3C = {
+			isa = PBXGroup;
+			children = (
+				AFC4B94A2702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */,
+				AFC4B9612702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests */,
+				AFC4B96B2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests */,
+				AFC4B9492702AC3A0054AC3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC4B9492702AC3A0054AC3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4B9482702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C.app */,
+				AFC4B95E2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests.xctest */,
+				AFC4B9682702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC4B94A2702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */,
+				AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */,
+				AFC4B94F2702AC3A0054AC3C /* ViewController.swift */,
+				AFC4B9512702AC3A0054AC3C /* Main.storyboard */,
+				AFC4B9542702AC3C0054AC3C /* Assets.xcassets */,
+				AFC4B9562702AC3C0054AC3C /* LaunchScreen.storyboard */,
+				AFC4B9592702AC3C0054AC3C /* Info.plist */,
+			);
+			path = "Fetch Rewards Code Challenge Alex C";
+			sourceTree = "<group>";
+		};
+		AFC4B9612702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4B9622702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift */,
+			);
+			path = "Fetch Rewards Code Challenge Alex CTests";
+			sourceTree = "<group>";
+		};
+		AFC4B96B2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4B96C2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITests.swift */,
+				AFC4B96E2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITestsLaunchTests.swift */,
+			);
+			path = "Fetch Rewards Code Challenge Alex CUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC4B9472702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC4B9722702AC3D0054AC3C /* Build configuration list for PBXNativeTarget "Fetch Rewards Code Challenge Alex C" */;
+			buildPhases = (
+				AFC4B9442702AC3A0054AC3C /* Sources */,
+				AFC4B9452702AC3A0054AC3C /* Frameworks */,
+				AFC4B9462702AC3A0054AC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetch Rewards Code Challenge Alex C";
+			productName = "Fetch Rewards Code Challenge Alex C";
+			productReference = AFC4B9482702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC4B95D2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC4B9752702AC3D0054AC3C /* Build configuration list for PBXNativeTarget "Fetch Rewards Code Challenge Alex CTests" */;
+			buildPhases = (
+				AFC4B95A2702AC3D0054AC3C /* Sources */,
+				AFC4B95B2702AC3D0054AC3C /* Frameworks */,
+				AFC4B95C2702AC3D0054AC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC4B9602702AC3D0054AC3C /* PBXTargetDependency */,
+			);
+			name = "Fetch Rewards Code Challenge Alex CTests";
+			productName = "Fetch Rewards Code Challenge Alex CTests";
+			productReference = AFC4B95E2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC4B9672702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC4B9782702AC3D0054AC3C /* Build configuration list for PBXNativeTarget "Fetch Rewards Code Challenge Alex CUITests" */;
+			buildPhases = (
+				AFC4B9642702AC3D0054AC3C /* Sources */,
+				AFC4B9652702AC3D0054AC3C /* Frameworks */,
+				AFC4B9662702AC3D0054AC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC4B96A2702AC3D0054AC3C /* PBXTargetDependency */,
+			);
+			name = "Fetch Rewards Code Challenge Alex CUITests";
+			productName = "Fetch Rewards Code Challenge Alex CUITests";
+			productReference = AFC4B9682702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC4B9402702AC3A0054AC3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AFC4B9472702AC3A0054AC3C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AFC4B95D2702AC3D0054AC3C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AFC4B9472702AC3A0054AC3C;
+					};
+					AFC4B9672702AC3D0054AC3C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AFC4B9472702AC3A0054AC3C;
+					};
+				};
+			};
+			buildConfigurationList = AFC4B9432702AC3A0054AC3C /* Build configuration list for PBXProject "Fetch Rewards Code Challenge Alex C" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC4B93F2702AC3A0054AC3C;
+			productRefGroup = AFC4B9492702AC3A0054AC3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC4B9472702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */,
+				AFC4B95D2702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CTests */,
+				AFC4B9672702AC3D0054AC3C /* Fetch Rewards Code Challenge Alex CUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC4B9462702AC3A0054AC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4B9582702AC3C0054AC3C /* LaunchScreen.storyboard in Resources */,
+				AFC4B9552702AC3C0054AC3C /* Assets.xcassets in Resources */,
+				AFC4B9532702AC3A0054AC3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4B95C2702AC3D0054AC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4B9662702AC3D0054AC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC4B9442702AC3A0054AC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4B9502702AC3A0054AC3C /* ViewController.swift in Sources */,
+				AFC4B94C2702AC3A0054AC3C /* AppDelegate.swift in Sources */,
+				AFC4B94E2702AC3A0054AC3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4B95A2702AC3D0054AC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4B9632702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4B9642702AC3D0054AC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4B96D2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITests.swift in Sources */,
+				AFC4B96F2702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC4B9602702AC3D0054AC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4B9472702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */;
+			targetProxy = AFC4B95F2702AC3D0054AC3C /* PBXContainerItemProxy */;
+		};
+		AFC4B96A2702AC3D0054AC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4B9472702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */;
+			targetProxy = AFC4B9692702AC3D0054AC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC4B9512702AC3A0054AC3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC4B9522702AC3A0054AC3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC4B9562702AC3C0054AC3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC4B9572702AC3C0054AC3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC4B9702702AC3D0054AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC4B9712702AC3D0054AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC4B9732702AC3D0054AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9972X86959;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fetch Rewards Code Challenge Alex C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AC.Fetch-Rewards-Code-Challenge-Alex-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC4B9742702AC3D0054AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9972X86959;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fetch Rewards Code Challenge Alex C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AC.Fetch-Rewards-Code-Challenge-Alex-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC4B9762702AC3D0054AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9972X86959;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AC.Fetch-Rewards-Code-Challenge-Alex-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Code Challenge Alex C.app/Fetch Rewards Code Challenge Alex C";
+			};
+			name = Debug;
+		};
+		AFC4B9772702AC3D0054AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9972X86959;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AC.Fetch-Rewards-Code-Challenge-Alex-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Code Challenge Alex C.app/Fetch Rewards Code Challenge Alex C";
+			};
+			name = Release;
+		};
+		AFC4B9792702AC3D0054AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9972X86959;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AC.Fetch-Rewards-Code-Challenge-Alex-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Rewards Code Challenge Alex C";
+			};
+			name = Debug;
+		};
+		AFC4B97A2702AC3D0054AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9972X86959;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AC.Fetch-Rewards-Code-Challenge-Alex-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Rewards Code Challenge Alex C";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC4B9432702AC3A0054AC3C /* Build configuration list for PBXProject "Fetch Rewards Code Challenge Alex C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4B9702702AC3D0054AC3C /* Debug */,
+				AFC4B9712702AC3D0054AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC4B9722702AC3D0054AC3C /* Build configuration list for PBXNativeTarget "Fetch Rewards Code Challenge Alex C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4B9732702AC3D0054AC3C /* Debug */,
+				AFC4B9742702AC3D0054AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC4B9752702AC3D0054AC3C /* Build configuration list for PBXNativeTarget "Fetch Rewards Code Challenge Alex CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4B9762702AC3D0054AC3C /* Debug */,
+				AFC4B9772702AC3D0054AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC4B9782702AC3D0054AC3C /* Build configuration list for PBXNativeTarget "Fetch Rewards Code Challenge Alex CUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4B9792702AC3D0054AC3C /* Debug */,
+				AFC4B97A2702AC3D0054AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC4B9402702AC3A0054AC3C /* Project object */;
+}
