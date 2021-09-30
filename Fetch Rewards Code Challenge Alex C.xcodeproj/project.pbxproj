@@ -7,10 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFAE7CA02702C77D0024DD1B /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7C9F2702C77D0024DD1B /* UIView_Ext.swift */; };
+		AFAE7CA22702CA640024DD1B /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CA12702CA640024DD1B /* CategoryTableViewCell.swift */; };
+		AFAE7CA4270355090024DD1B /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CA3270355090024DD1B /* CategoryController.swift */; };
+		AFAE7CA6270356F40024DD1B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CA5270356F40024DD1B /* Category.swift */; };
+		AFAE7CA8270367730024DD1B /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CA7270367730024DD1B /* CustomImageView.swift */; };
+		AFAE7CAA270378D90024DD1B /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CA9270378D90024DD1B /* MealsViewController.swift */; };
+		AFAE7CAC2703830D0024DD1B /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CAB2703830D0024DD1B /* MealTableViewCell.swift */; };
+		AFAE7CAE27038E460024DD1B /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CAD27038E460024DD1B /* MealController.swift */; };
+		AFAE7CB0270390DD0024DD1B /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CAF270390DD0024DD1B /* Meals.swift */; };
+		AFAE7CB22703AE9C0024DD1B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CB12703AE9C0024DD1B /* DetailsViewController.swift */; };
+		AFAE7CB42703E9220024DD1B /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CB32703E9220024DD1B /* DetailsController.swift */; };
+		AFAE7CB62703EA400024DD1B /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CB52703EA400024DD1B /* MealDetails.swift */; };
+		AFAE7CB82704C5650024DD1B /* Loopable_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CB72704C5650024DD1B /* Loopable_Protocol.swift */; };
+		AFAE7CBA2704D8EB0024DD1B /* String_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CB92704D8EB0024DD1B /* String_Ext.swift */; };
+		AFAE7CBC2704F97F0024DD1B /* IngredientTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CBB2704F97F0024DD1B /* IngredientTableCell.swift */; };
+		AFAE7CBE270546C90024DD1B /* ActivityIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE7CBD270546C90024DD1B /* ActivityIndicatorController.swift */; };
 		AFC4B94C2702AC3A0054AC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */; };
 		AFC4B94E2702AC3A0054AC3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */; };
-		AFC4B9502702AC3A0054AC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94F2702AC3A0054AC3C /* ViewController.swift */; };
-		AFC4B9532702AC3A0054AC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4B9512702AC3A0054AC3C /* Main.storyboard */; };
+		AFC4B9502702AC3A0054AC3C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B94F2702AC3A0054AC3C /* CategoryViewController.swift */; };
 		AFC4B9552702AC3C0054AC3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC4B9542702AC3C0054AC3C /* Assets.xcassets */; };
 		AFC4B9582702AC3C0054AC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4B9562702AC3C0054AC3C /* LaunchScreen.storyboard */; };
 		AFC4B9632702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4B9622702AC3D0054AC3C /* Fetch_Rewards_Code_Challenge_Alex_CTests.swift */; };
@@ -36,11 +51,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AFAE7C9F2702C77D0024DD1B /* UIView_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
+		AFAE7CA12702CA640024DD1B /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		AFAE7CA3270355090024DD1B /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		AFAE7CA5270356F40024DD1B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AFAE7CA7270367730024DD1B /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		AFAE7CA9270378D90024DD1B /* MealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
+		AFAE7CAB2703830D0024DD1B /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		AFAE7CAD27038E460024DD1B /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
+		AFAE7CAF270390DD0024DD1B /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		AFAE7CB12703AE9C0024DD1B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AFAE7CB32703E9220024DD1B /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		AFAE7CB52703EA400024DD1B /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
+		AFAE7CB72704C5650024DD1B /* Loopable_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loopable_Protocol.swift; sourceTree = "<group>"; };
+		AFAE7CB92704D8EB0024DD1B /* String_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Ext.swift; sourceTree = "<group>"; };
+		AFAE7CBB2704F97F0024DD1B /* IngredientTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableCell.swift; sourceTree = "<group>"; };
+		AFAE7CBD270546C90024DD1B /* ActivityIndicatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorController.swift; sourceTree = "<group>"; };
 		AFC4B9482702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Rewards Code Challenge Alex C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFC4B94F2702AC3A0054AC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFC4B9522702AC3A0054AC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC4B94F2702AC3A0054AC3C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		AFC4B9542702AC3C0054AC3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFC4B9572702AC3C0054AC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC4B9592702AC3C0054AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +106,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFAE7CBF2705533F0024DD1B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */,
+				AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		AFAE7CC0270553530024DD1B /* Custom+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				AFAE7CBD270546C90024DD1B /* ActivityIndicatorController.swift */,
+				AFAE7CB72704C5650024DD1B /* Loopable_Protocol.swift */,
+				AFAE7CB92704D8EB0024DD1B /* String_Ext.swift */,
+				AFAE7C9F2702C77D0024DD1B /* UIView_Ext.swift */,
+				AFAE7CA7270367730024DD1B /* CustomImageView.swift */,
+			);
+			path = "Custom+Ext";
+			sourceTree = "<group>";
+		};
 		AFC4B93F2702AC3A0054AC3C = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +150,22 @@
 		AFC4B94A2702AC3A0054AC3C /* Fetch Rewards Code Challenge Alex C */ = {
 			isa = PBXGroup;
 			children = (
-				AFC4B94B2702AC3A0054AC3C /* AppDelegate.swift */,
-				AFC4B94D2702AC3A0054AC3C /* SceneDelegate.swift */,
-				AFC4B94F2702AC3A0054AC3C /* ViewController.swift */,
-				AFC4B9512702AC3A0054AC3C /* Main.storyboard */,
-				AFC4B9542702AC3C0054AC3C /* Assets.xcassets */,
+				AFC4B94F2702AC3A0054AC3C /* CategoryViewController.swift */,
+				AFAE7CA3270355090024DD1B /* CategoryController.swift */,
+				AFAE7CA5270356F40024DD1B /* Category.swift */,
+				AFAE7CA12702CA640024DD1B /* CategoryTableViewCell.swift */,
+				AFAE7CA9270378D90024DD1B /* MealsViewController.swift */,
+				AFAE7CAD27038E460024DD1B /* MealController.swift */,
+				AFAE7CAF270390DD0024DD1B /* Meals.swift */,
+				AFAE7CAB2703830D0024DD1B /* MealTableViewCell.swift */,
+				AFAE7CB12703AE9C0024DD1B /* DetailsViewController.swift */,
+				AFAE7CB32703E9220024DD1B /* DetailsController.swift */,
+				AFAE7CB52703EA400024DD1B /* MealDetails.swift */,
+				AFAE7CBB2704F97F0024DD1B /* IngredientTableCell.swift */,
+				AFAE7CC0270553530024DD1B /* Custom+Ext */,
+				AFAE7CBF2705533F0024DD1B /* Delegates */,
 				AFC4B9562702AC3C0054AC3C /* LaunchScreen.storyboard */,
+				AFC4B9542702AC3C0054AC3C /* Assets.xcassets */,
 				AFC4B9592702AC3C0054AC3C /* Info.plist */,
 			);
 			path = "Fetch Rewards Code Challenge Alex C";
@@ -233,7 +294,6 @@
 			files = (
 				AFC4B9582702AC3C0054AC3C /* LaunchScreen.storyboard in Resources */,
 				AFC4B9552702AC3C0054AC3C /* Assets.xcassets in Resources */,
-				AFC4B9532702AC3A0054AC3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +318,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC4B9502702AC3A0054AC3C /* ViewController.swift in Sources */,
+				AFAE7CB42703E9220024DD1B /* DetailsController.swift in Sources */,
+				AFAE7CB82704C5650024DD1B /* Loopable_Protocol.swift in Sources */,
+				AFAE7CB0270390DD0024DD1B /* Meals.swift in Sources */,
+				AFAE7CA02702C77D0024DD1B /* UIView_Ext.swift in Sources */,
+				AFAE7CA8270367730024DD1B /* CustomImageView.swift in Sources */,
+				AFAE7CA22702CA640024DD1B /* CategoryTableViewCell.swift in Sources */,
+				AFC4B9502702AC3A0054AC3C /* CategoryViewController.swift in Sources */,
+				AFAE7CAC2703830D0024DD1B /* MealTableViewCell.swift in Sources */,
 				AFC4B94C2702AC3A0054AC3C /* AppDelegate.swift in Sources */,
 				AFC4B94E2702AC3A0054AC3C /* SceneDelegate.swift in Sources */,
+				AFAE7CAE27038E460024DD1B /* MealController.swift in Sources */,
+				AFAE7CB62703EA400024DD1B /* MealDetails.swift in Sources */,
+				AFAE7CA4270355090024DD1B /* CategoryController.swift in Sources */,
+				AFAE7CAA270378D90024DD1B /* MealsViewController.swift in Sources */,
+				AFAE7CBA2704D8EB0024DD1B /* String_Ext.swift in Sources */,
+				AFAE7CBE270546C90024DD1B /* ActivityIndicatorController.swift in Sources */,
+				AFAE7CB22703AE9C0024DD1B /* DetailsViewController.swift in Sources */,
+				AFAE7CA6270356F40024DD1B /* Category.swift in Sources */,
+				AFAE7CBC2704F97F0024DD1B /* IngredientTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AFC4B9512702AC3A0054AC3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC4B9522702AC3A0054AC3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFC4B9562702AC3C0054AC3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +512,7 @@
 				INFOPLIST_FILE = "Fetch Rewards Code Challenge Alex C/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +540,7 @@
 				INFOPLIST_FILE = "Fetch Rewards Code Challenge Alex C/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
