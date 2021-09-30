@@ -140,6 +140,7 @@ extension MealsViewController: UISearchBarDelegate, UISearchDisplayDelegate, UIS
     func searchBar(_ searchBar: UISearchBar, textDidChange textSearched: String) {
         if searchBar.text == "" {
             isSearching = false
+            searchedMeals.removeAll()
             tableView.reloadData()
         } else {
             isSearching = true
